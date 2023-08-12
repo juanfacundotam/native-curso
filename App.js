@@ -17,7 +17,6 @@ export default function App() {
         <Saludar name="Tomas" apellido="Perez" />
         <Saludar name="Pedro" />
         <Saludar name="Juan" />
-        <Saludar name="Javier" /> */}
         <NavigationStack/>
         {/* <StatusBar style="auto" /> */}
       {/* </View> */}
