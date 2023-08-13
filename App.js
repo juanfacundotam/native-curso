@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 import LoginForm from "./src/components/LoginForm";
 import Saludar from "./src/components/Saludar";
 
-import NavigationStack from "./src/navigation/NavigationStack";
+// import NavigationStack from "./src/navigation/NavigationStack";
 import NavigationDrawer from "./src/navigation/NavigationDrawer";
 import NavigationTab from "./src/navigation/NavigationTab";
 
