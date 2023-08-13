@@ -7,6 +7,7 @@ import Saludar from "./src/components/Saludar";
 
 import NavigationStack from "./src/navigation/NavigationStack";
 import NavigationDrawer from "./src/navigation/NavigationDrawer";
+import NavigationTab from "./src/navigation/NavigationTab";
 
 export default function App() {
   return (
@@ -18,8 +19,9 @@ export default function App() {
     // </View>
 
     <NavigationContainer>
-      <NavigationStack />
+      {/* <NavigationStack /> */}
       {/* <NavigationDrawer /> */}
+      <NavigationTab />
     </NavigationContainer>
   );
 }
