@@ -6,20 +6,20 @@ import LoginForm from "./src/components/LoginForm";
 import Saludar from "./src/components/Saludar";
 
 import NavigationStack from "./src/navigation/NavigationStack";
-// import NavigationDrawer from "./src/navigation/NavigationDrawer";
+import NavigationDrawer from "./src/navigation/NavigationDrawer";
 
 export default function App() {
   return (
+    // <View style={styles.container}>
+    //   <LoginForm />
+    //   <Saludar name="Tomas" apellido="Perez" />
+    //   <Saludar name="Pedro" />
+    //   <Saludar name="Juan" />
+    // </View>
+
     <NavigationContainer>
-      {/* <View style={styles.container}> */}
-        {/* <Text>Open sssss</Text> */}
-        {/* <LoginForm />
-        <Saludar name="Tomas" apellido="Perez" />
-        <Saludar name="Pedro" />
-        <Saludar name="Juan" />
-        <NavigationStack/>
-        {/* <StatusBar style="auto" /> */}
-      {/* </View> */}
+      <NavigationStack />
+      {/* <NavigationDrawer /> */}
     </NavigationContainer>
   );
 }
